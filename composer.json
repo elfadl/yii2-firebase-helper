@@ -1,10 +1,10 @@
 {
-  "name": "grptx/yii2-firebase",
+  "name": "kamal/yii2-firebase-helper",
   "type": "yii2-extension",
   "authors": [
     {
-      "name": "grptx",
-      "email": "r.rossetti@melogra.no"
+      "name": "kamal",
+      "email": "kamal.elfald@gmail.com"
     }
   ],
   "license": "MIT",
