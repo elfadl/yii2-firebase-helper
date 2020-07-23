@@ -11,15 +11,8 @@ This Yii2 component wraps [kreait/firebase-php](https://github.com/kreait/fireba
 
 Preferred way to install is through [Composer](https://getcomposer.org): 
 ```shell
-php composer.phar require grptx/yii2-firebase:~0.3.1
+php composer.phar require elfadl/yii2-firebase-helper
 ```
-Or, you may add
-
-```php
-"grptx/yii2-firebase": "~0.3.1"
-```
-
-to the require section of your `composer.json` file and execute `php composer.phar update`.
 
 ## Configuration
 
@@ -27,7 +20,7 @@ to the require section of your `composer.json` file and execute `php composer.ph
 ...
 'components' => [
     'firebase' => [
-        'class'=>'grptx\Firebase\Firebase',
+        'class'=>'elfadl\Firebase\Firebase',
         'credential_file'=>'service_account.json', // (see https://firebase.google.com/docs/admin/setup#add_firebase_to_your_app)
         'database_uri'=>'https://my-project.firebaseio.com', // (optional)
     ]
@@ -51,7 +44,7 @@ require (__DIR__.'/../../vendor/grptx/yii2-firebase/src/yii2/Yii.php');
 (new \grptx\Firebase\web\Application($config))->run();
 
 ```
-now when you need you can use grptx\Firebase\yii2\Yii instead of Yii to use autocomplete of your IDE
+now when you need you can use elfadl\Firebase\yii2\Yii instead of Yii to use autocomplete of your IDE
 
 ## Usage
 
