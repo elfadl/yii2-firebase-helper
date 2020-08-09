@@ -9,7 +9,7 @@
  */
 require(__DIR__ . '/BaseYii.php');
 
-use grptx\Firebase\yii2\BaseYii;
+use elfadl\Firebase\yii2\BaseYii;
 use yii\di\Container;
 /**
  * Yii is a helper class serving common framework functionalities.

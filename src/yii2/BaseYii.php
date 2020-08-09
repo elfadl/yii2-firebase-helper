@@ -6,10 +6,10 @@
  * Time: 11.10
  */
 
-namespace grptx\Firebase\yii2;
+namespace elfadl\Firebase\yii2;
 
 
-use grptx\Firebase\web\Application;
+use elfadl\Firebase\web\Application;
 
 class BaseYii extends \yii\BaseYii {
 	/**

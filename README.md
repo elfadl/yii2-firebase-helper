@@ -41,7 +41,7 @@ with:
 ```php
 require (__DIR__.'/../../vendor/grptx/yii2-firebase/src/yii2/Yii.php');
 //and
-(new \grptx\Firebase\web\Application($config))->run();
+(new \elfadl\Firebase\web\Application($config))->run();
 
 ```
 now when you need you can use elfadl\Firebase\yii2\Yii instead of Yii to use autocomplete of your IDE

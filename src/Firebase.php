@@ -1,6 +1,6 @@
 <?php
 
-namespace grptx\Firebase;
+namespace elfadl\Firebase;
 
 use Kreait\Firebase\Database;
 use Kreait\Firebase\Database\Reference;

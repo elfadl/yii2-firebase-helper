@@ -1,12 +1,12 @@
 <?php
 
-namespace grptx\Firebase\web;
+namespace elfadl\Firebase\web;
 
-use grptx\Firebase\Firebase;
+use elfadl\Firebase\Firebase;
 
 /**
  * Class Application
- * @package grptx\Firebase\web
+ * @package elfadl\Firebase\web
  * @property Firebase $firebase
  */
 class Application extends \yii\web\Application {
